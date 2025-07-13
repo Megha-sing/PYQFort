@@ -1,0 +1,19 @@
+Institute: NIT_Kurukshetra
+Subject: Data Structures (Dec 2019) (ITPC 100)
+
+PART A
+Q1 (a) Write a function in C with proper parameters to display starting indices of all occurrences of a substring in a string. String and substring are passed as parameters. Don't use [] anywhere in the function, except in the function header. Use of string.h is not allowed. Compute its time complexity and justify. (6)
+   (b) Write a C function using iteration (not recursion) to implement binary search (successful as well as unsuccessful). (4)
+Q2 (a) Write a C function to find fast transpose of a sparse matrix. Explain its working. (6)
+   (b) Assume that the values 28, 35, 51, 11, 19, 52, 38 are to be sorted using selection sort. Show steps by step how these values get sorted. Writing of code is not needed. (4)
+                                                    OR
+Q3 (a) Write a program to copy a given file of characters into another file in reverse order. File names will be input from the user. Don't use any array in the program. File size is to be computed and cannot be used as parameter. (6)
+   (b) Write a C function that computes the value of a given polynomial for a given value of x. Compute its time complexity. (4)
+Q4 (a) Assume that a doubly linked list contains integer values in sorted order. The list is never empty and may have duplicate values. Write a C function which removes the duplicate values from the list. No extra malloc should be used and original list should get modified. (6)
+   (b) Write a C function to insert a given value into a binary search tree. Don't use any global/static variable. (4)
+Q5 (a) Write a C function to insert a given number at position p in a given singly linked list. Here p = 1 means insert at starting position. List can be empty also. (5)
+   (b) Write a C function which receives a list of employees (having emp-id, name, age) and generates a queue of those employees whose age is above 50 and their name starts with ‘A’. Define insertq function for insertion into queue and use it in the above function. (5)
+Q6 (a) Define complete binary tree and explain its usage. (2.5)
+   (b) Show step wise sorting of data 20, 50, 10, 15, 90, 5 using merge sort. (2.5)
+   (c) Write a C function which returns count of those nodes whose value is less than 20. Use of global/static variables is not allowed. No extra array/list should be created. Compute its time complexity and justify. (5)
+

@@ -1,0 +1,29 @@
+Institute: NIT_Kurukshetra
+Subject: Data Structures (May 2019) (ITPC 100)
+
+PART  A
+Q1 (a) A magic square is a square matrix of integers such that the sum of every row, sum of every column and sum of each of the diagonals are equal. Write a C function to check whether the given matrix is a magic square or not. (6)
+   (b) Define (not explain) Big Oh Complexity. Compute the Big Oh complexity of the function written by you for Q1(a) by mentioning time complexity of different sub-parts of your logic. (4)
+Q2 (a) Given an array A of n elements, write a function in C which generates a local array R using dynamic memory of n elements such that the 𝑖ᵗʰ element of R contains the rank of the 𝑖ᵗʰ element of A. The rank of an element is defined to be the position it would occupy had the list been sorted. Assume that all elements are distinct. Your function should return the local variable R using proper return type. (6)
+   (b) Compute step by step an addressing formula for the element A[i₀][i₁]...[iₙ₋₁] in an array declared as A[upper₀][upper₁]...[upperₙ₋₁]. Assume column major ordering with base address as α. (4)
+                                                (OR)
+Q3 (a) Assume that an input file exists having students’ records comprising of roll no (1..N), name, and fee-paid. Roll numbers are in ascending order of 1..N with no missing number in between. Write a function in C which first finds average fee paid by the class (N is to be computed by the function and cannot be made as parameter). Then in the same function, read a roll number from the user and find the fee-paid by him/her by directly reaching to that record (don’t use any loop/extra array for this). (6)
+   (b) For which type of data, quick sort will have best and worst time complexity? Justify. (2)
+   (c) If values of two integer variables are to be swapped using a function, how they should be passed to the function? Give syntax of function declaration and function calling. (2)
+Q4 (a) Write a C function to split a doubly linked list into two lists list1 and list2, such that all nodes having odd values are in list1 and all nodes having even values are in list2. No extra nodes are to be created and nodes in the original list are to be re-linked properly. (6)
+   (b) Assume that a sparse matrix is stored as a singly linked list, where a node stores row-number, column-number and value corresponding to each non-zero value. First node of the list will contain the total-rows, total-columns and total non-zero value-count. Write a C-function to add two sparse matrices and generate a new linked list having pointer name as res_list. Assume that the variable res-list is a global variable.    (4)                                                          
+Q5 (a) Write a C function to copy a given binary tree into another.      (4)
+   (b) Write a C function to find predecessor of a given node in a binary search tree.    (3)
+   (c) Assume that the array (27, 11, 5, 25, 78, 19, 3, 1) is to be sorted using merge sort, show the  
+       contents of the list after every completed recursive call. There is no need to write the code.    (3)
+Q6 (a) For Circular queue, implement addq and deleteq functions. For full/empty check, only one condition should be checked i.e. whether front is equal to rear or not?    (4)
+   (b) If two stacks are to be implemented in a single array, explain how the space can be utilized in most efficient way? What will be the condition to check fullness of both stacks?       (3)
+   (c) Assume that the list (35, 3, 18, 13, 70, 40, 11, 9) is to be sorted in ascending order using heap sort. Show the heap contents by drawing 8 different heaps one for every step when one number gets ready to be placed at the end of the list. There is no need to write the code.    (3)
+
+
+
+
+
+
+
+

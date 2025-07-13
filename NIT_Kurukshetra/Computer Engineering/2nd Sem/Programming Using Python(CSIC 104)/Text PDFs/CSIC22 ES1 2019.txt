@@ -1,0 +1,24 @@
+Institute: NIT_Kurukshetra
+Subject: Programming Using Python (Dec 2019) (CSIC 104)
+
+PART A
+Q1 (a) What are the ways to pass arguments in a python function? Show with the help of example. (5)
+   (b) Create a python function that accepts any number of input arguments. Function must return the number of input arguments and two maximum values (consider input arguments are integer only). (5)
+Q2 (a) How to use String.format() method. Write a function UpperCaseVowels(word) which returns the word with all the vowel capitalized. (3)
+   (b) Write a function Eliminate_Letter(word, letter) which takes a word and a letter as argument and removes all the occurrences of that particular letter from the word. The function will return the remaining letters in the word. (4)
+   (c) How to create and use packages. (3)
+Q3 (a) Write program to eliminate the duplicate values in a list, but preserve the order of the remaining items. (3)
+   (b) Write hundred numbers in a binary file, ten numbers in each line. Then read those numbers and calculate, print the sum of each column? (4)
+   (c) Write a Python program to remove duplicates from a list of lists. (3)
+Q4 (a) Explain any six methods of “tkinter” module. (5)
+   (b) Write program to sort the entries according to one or more of the dictionary values in a list of dictionaries. (5)
+Q5 (a) Write program to perform following operations on an image.  (6)
+             i) Resize by size (200x200)  ii) Convert in grayscale mode  
+             iii) Crop     iv) Rotate     v) Flip
+   (b) What all keywords and methods are used for exception handling in python? (4)
+                                            **OR**
+   (a) Write a Python program to map two lists into a dictionary. (2)
+   (b) Write a Python program to replace dictionary values with their sum. (3)
+   (c) Write program to draw a polygon, consisting of 6 sides. Draw a circle at the center of polygon with its circumference touching all sides of polygon. (use turtle module) (5)
+
+

@@ -1,0 +1,20 @@
+Institute: NIT_Kurukshetra
+Subject: Programming Using Python (May 2019) (CSIC 104)
+
+PART A
+Q1 (a) Write a program to reverse a four digit number using % and // operator and shift the reversed number 2 bits towards the right. (3)
+   (b) What is ‘Position Argument’, ‘Keyword Arguments’, and ‘Parameter with default values’ in a Python function? Show with the help of example. (3)
+   (c) Write a program to show method overloading and overwriting in Python. (4)
+Q2 (a) How to read global variable from local scope and what happens when local and global variables have the same name. (3)
+   (b) Given two strings S1 = "fgabcabcdr" and S2 = "12ghtavabcabf". What will be the output of: a) print(S1[::-1]) b) print(S1[-1:0:-1]) c) print(S1[:1:-1]) d) print(3*S2) e) print(S2.isalpha()) f) print(S1.rfind("a")) g) print(S2.find("ab")) h) print(S1.replace("ab", "bh", 2)) (4)
+   (c) How to create and use an abstract class? Write program. (3)
+Q3 (a) Explain following methods (in relation to List) with the help of examples. append, clear, copy, extend, index, insert, remove, pop. (4)
+   (b) How to append a new row in a given csv file. Write program. (3)
+   (c) Explain the working of zip and unzip (zip(*)) method, using three tuples t1, t2, t3 as arguments. (3)
+Q4 (a) Create a calculator using tkinter. Calculator should be able to save previous ten calculations in a text file, which can be accessed (one by one) by using back button of calculator. (7)
+   (b) With example show working of any six methods of dictionary. (3)
+Q5 (a) Read all the images from a given folder, resize those images by size (200x200) and convert in grayscale mode. Save all grayscale images in a folder named "my_gray_images" and display these images on a canvas (use grid layout). (7)
+   (b) How to perform exception handling in python. Explain all keywords and methods related to exception handling. (3)
+Q6 (a) You have a list of dictionaries and How would you sort the entries according to one or more of the dictionary values.(3)
+   (b) Explain the use of following methods of turtle module. 
+       clearstamp(), pendown(), onclick(), setundobuffer(), end_fill() (3)

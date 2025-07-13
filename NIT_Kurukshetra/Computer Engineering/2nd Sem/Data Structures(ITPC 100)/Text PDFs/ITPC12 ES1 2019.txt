@@ -1,0 +1,27 @@
+Institute: NIT-Kurukshetra
+Subject: Data Structures (Dec 2019) (ITPC 100)
+
+PART A
+Q1 (a) What do you mean by pointer? How to pass pointers in functions?	(3)
+   (b) What do you mean by dynamic memory allocation. What function or functions can be used for dynamic memory allocation.	(2)
+   (c) WAP in C language to sort n elements using Merge sort.	(5)
+Q2 (a) Convert the following infix expression to its postfix form using stack. A + B - C*D/E + F. (5)
+                                       OR
+   (a) Evaluate the following prefix expression : * + 4 3 2 5 Show diagrammatically each step of evaluation using stack. (5)
+   (b) WAP in C language to implement a stack using an array. (5)
+Q3 (a) WAP in C program to reverse only first n elements of a Linked List (3)
+   (b) Describe an algorithm to evaluate postfix expression using STACK. (3)
+                                       OR
+   (b) Show how to implement three stack in one array.	
+   (c) Take a queue containing numbers 10, 15, 5, 25, 30 in which 30 has been inserted first. After performing the following operations, what would be the contents of the queue ? (4)
+    i. Delete two elements
+    ii. Insert 7 and then 20
+    iii. Delete an element
+Q4 (a) 'Recursion is better than iteration'. Critically comment on this statement.
+   (b) Usually a queue is implemented using two pointers, viz., front and rear. Is it possible to implement a linked queue that requires only one pointer? If yes, how to implement it?
+   (c) Write a recursive algorithm to count the number of elements in an array. Explain the advantages and disadvantages of using recursive formulation of an algorithm compared to non-recursive formulation.
+Q5 (a) Given the following in-order and pre-order traversal reconstruct a binary tree:  (5)
+       Inorder sequence: D, G, B, H, E, A, F, I, C
+       Preorder sequence: A, B, D, G, E, H, C, F, I
+Q6 (b) Sort the given list using Heap Sort :66, 33, 40, 20, 50, 88, 60, 11, 77, 30, 45, 65. (5)
+

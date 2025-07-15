@@ -1,0 +1,50 @@
+name: Smart Issue Automation
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  smart-labeling:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Analyze and label issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const title = issue.title.toLowerCase();
+            const body = issue.body ? issue.body.toLowerCase() : '';
+            
+            let labels = ['enhancement']; // Default label
+            
+            // Add additional labels based on content
+            if (title.includes('bug') || body.includes('bug')) {
+              labels.push('bug');
+            }
+            if (title.includes('feature') || body.includes('feature')) {
+              labels.push('feature-request');
+            }
+            if (title.includes('documentation') || body.includes('docs')) {
+              labels.push('documentation');
+            }
+            
+            // Apply labels
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: labels
+            });
+            
+            // Add comment
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `@Saumy1905 will review this issue\n\nThank you for contributing to PYQFort! 🎓\n\nThis issue has been automatically labeled as: ${labels.join(', ')}`
+            });

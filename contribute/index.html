@@ -1,0 +1,80 @@
+---
+layout: default
+title: Add PYQs
+---
+
+<div class="container">
+  <div class="breadcrumbs">
+    <a href="{{ '/' | relative_url }}">Home</a> »
+    <span>Add PYQs</span>
+  </div>
+  
+  <div class="about-container">
+    <div class="about-header">
+      <h1 class="page-title">📚 Contribute</h1>
+      <p class="about-tagline">Contribute to PYQFort</p>
+    </div>
+    
+    <div class="about-content">
+      <p>You can contribute to PYQFort as per the guidelines stated below</p>
+
+      <h2>Primary contributions (Technical)</h2>
+      <p>GitHub link: <a href="https://github.com/Saumy1905/PYQFort" target="_blank" rel="noopener noreferrer">https://github.com/Saumy1905/PYQFort</a></p>
+
+      <h3>🔄 Cloning the Repository on Your Laptop</h3>
+      <p>To contribute, first <strong>fork</strong> the repository and then clone your fork:</p>
+      <pre><code>git clone &lt;your-forked-repo-URL&gt;</code></pre>
+
+      <h3>📂 Making Changes</h3>
+      <ol>
+        <li>Navigate to the cloned directory and follow the commands:
+          <pre><code>cd PYQFort
+git remote add upstream https://github.com/Saumy1905/PYQFort.git
+git remote -v</code></pre>
+        </li>
+        <li>Create a new branch for your contribution:
+          <pre><code>git checkout -b college-name</code></pre>
+        </li>
+        <li>Add new PYQs or make improvements.</li>
+        <li>Stage the changes:
+          <pre><code>git add .</code></pre>
+        </li>
+        <li>Commit your changes with a meaningful message:
+          <pre><code>git commit -m "Added PYQs for [Branch] [Sem] [Subject] [Code]"</code></pre>
+        </li>
+        <li>Push the changes to your fork:
+          <pre><code>git push origin college-name</code></pre>
+        </li>
+      </ol>
+
+      <h3>🔄 Submitting a Pull Request</h3>
+      <ol>
+        <li>Go to your forked repository on GitHub.</li>
+        <li>Click on <strong>"Compare & pull request"</strong>.</li>
+        <li>Add a brief description of your changes.</li>
+        <li>Click <strong>"Create pull request"</strong>.</li>
+      </ol>
+
+      <p>If you are contributing to this project, then follow these guidelines:</p>
+
+      <h4>[Data Dumping]</h4>
+      <ol>
+        <li>Add your college directory in the <code>DATA_DUMP</code> folder in which other colleges are added</li>
+        <li>Not to add new college directory inside some other college</li>
+        <li>Not to add irrelevant content inside the college repository</li>
+      </ol>
+
+      <h4>[Data Structure]</h4>
+      <ol>
+        <li>We'll later structure the data from the <code>DATA_DUMP</code> directory and index it to PYQFort</li>
+      </ol>
+
+      <p>🚀 Your contribution will be reviewed and merged into the main repository!</p>
+
+      <div class="about-cta">
+        <a href="{{ '/' | relative_url }}" class="btn-primary">Access PYQs</a>
+        <a href="{{ '/contact/' | relative_url }}" class="btn-secondary">Contact</a>
+      </div>
+    </div>
+  </div>
+</div>

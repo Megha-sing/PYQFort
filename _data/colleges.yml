@@ -266,13 +266,6 @@
           description: Subjects for Semester 5
           keywords: ["semester 5", "engineering", "subjects"]
           subjects:
-            - name: Computer Networks
-              id: computer-networks
-              description: Fundamentals of computer networking
-              keywords: ["computer", "networks", "fundamentals"]
-              icon: network-wired
-              slug: computer-networks
-              pyqs:
             - name: Database Management Systems
               id: dbms
               description: Principles of database systems

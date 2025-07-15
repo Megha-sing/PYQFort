@@ -25,7 +25,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - README.md
-  - DATA_DUMP
+  - Data_Dump
   - SECURITY.MD
   - LICENSE
   - CONTRIBUTING.md

@@ -41,7 +41,7 @@ jobs:
         run: bundle install
         
       - name: Build with Jekyll
-        run: bundle exec jekyll build --baseurl=""
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
           
@@ -60,8 +60,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        
-      - name: Verify Custom Domain
-        run: |
-          echo "Deployment completed"
-          echo "Custom domain should be available at: https://pyqfort.com"

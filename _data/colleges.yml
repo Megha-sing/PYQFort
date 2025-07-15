@@ -260,6 +260,111 @@
                   id: ymca-os-2019  # Add this unique identifier
                   pages: 3
                   title: "Operating System 2019"
+        - number: 5
+          slug: sem5
+          id: sem5
+          description: Subjects for Semester 5
+          keywords: ["semester 5", "engineering", "subjects"]
+          subjects:
+            - name: Computer Networks
+              id: computer-networks
+              description: Fundamentals of computer networking
+              keywords: ["computer", "networks", "fundamentals"]
+              icon: network-wired
+              slug: computer-networks
+              pyqs:
+            - name: Database Management Systems
+              id: dbms
+              description: Principles of database systems
+              keywords: ["database", "management", "systems"]
+              icon: database
+              slug: dbms
+              pyqs:
+                - year: 2023
+                  file: ymca-dbms-2023.pdf
+                  id: ymca-dbms-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Database Management Systems 2023"
+                - year: 2018
+                  file: ymca-dbms-2018.pdf
+                  id: ymca-dbms-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Database Management Systems 2018"
+                - year: 2019
+                  file: ymca-dbms-2019.pdf
+                  id: ymca-dbms-2019  # Add this unique identifier
+                  pages: 3
+                  title: "Database Management Systems 2019"
+            - name: Biology
+              id: biology
+              description: Biological concepts in engineering
+              keywords: ["biology", "engineering", "concepts"]
+              icon: flask
+              slug: biology
+              pyqs:
+                - year: 2023
+                  file: ymca-biology-2023.pdf
+                  id: ymca-biology-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Biology 2023"
+                - year: 2024
+                  file: ymca-biology-2024.pdf
+                  id: ymca-biology-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Biology 2024"
+            - name: Compiler Design
+              id: compiler-design
+              description: Principles of compiler design
+              keywords: ["compiler", "design", "principles"]
+              icon: file-code
+              slug: compiler-design
+              pyqs:
+                - year: 2023
+                  file: ymca-compiler-design-2023.pdf
+                  id: ymca-compiler-design-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Compiler Design 2023"
+            - name: Constitution
+              id: constitution
+              description: Study of the Indian Constitution
+              keywords: ["constitution", "indian", "study"]
+              icon: gavel
+              slug: constitution
+              pyqs:
+                - year: 2023
+                  file: ymca-constitution-2023.pdf
+                  id: ymca-constitution-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Constitution 2023"
+            - name: Signal and Systems
+              id: sns
+              description: Fundamentals of signals and systems
+              keywords: ["signal", "systems", "fundamentals"]
+              icon: signal
+              slug: sns
+              pyqs:
+                - year: 2023
+                  file: ymca-sns-2023.pdf
+                  id: ymca-sns-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Signal and Systems 2023"
+                - year: 2019
+                  file: ymca-sns-2019.pdf
+                  id: ymca-sns-2019  # Add this unique identifier
+                  pages: 3
+                  title: "Signal and Systems 2019"
+            - name: Universal Human Values
+              id: universal-human-values
+              description: Study of human values and ethics
+              keywords: ["human", "values", "ethics"]
+              icon: heart
+              slug: universal-human-values
+              pyqs:
+                - year: 2023
+                  file: ymca-universal-human-values-2023.pdf
+                  id: ymca-universal-human-values-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Universal Human Values 2023"
 - name: vit-bhopal
   slug: vit-bhopal
   id: vit-bhopal

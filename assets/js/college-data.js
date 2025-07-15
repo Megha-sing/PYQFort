@@ -353,6 +353,146 @@ window.COLLEGE_DATA = {
                   ]
                 }
               ]
+            },
+            {
+              number: 5,
+              slug: "sem5",
+              id: "sem5",
+              description: "Subjects for Semester 5",
+              subjects: [
+                {
+                  name: "Computer Networks",
+                  id: "computer-networks",
+                  description: "Fundamentals of computer networking",
+                  icon: "network-wired",
+                  slug: "computer-networks",
+                  pyqs: []
+                },
+                {
+                  name: "Database Management Systems",
+                  id: "dbms",
+                  description: "Principles of database systems",
+                  icon: "database",
+                  slug: "dbms",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-dbms-2023.pdf",
+                      id: "ymca-dbms-2023",
+                      pages: 3,
+                      title: "Database Management Systems 2023"
+                    },
+                    {
+                      year: 2018,
+                      file: "ymca-dbms-2018.pdf",
+                      id: "ymca-dbms-2018",
+                      pages: 3,
+                      title: "Database Management Systems 2018"
+                    },
+                    {
+                      year: 2019,
+                      file: "ymca-dbms-2019.pdf",
+                      id: "ymca-dbms-2019",
+                      pages: 3,
+                      title: "Database Management Systems 2019"
+                    }
+                  ]
+                },
+                {
+                  name: "Biology",
+                  id: "biology",
+                  description: "Biological concepts in engineering",
+                  icon: "flask",
+                  slug: "biology",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-biology-2023.pdf",
+                      id: "ymca-biology-2023",
+                      pages: 3,
+                      title: "Biology 2023"
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-biology-2024.pdf",
+                      id: "ymca-biology-2024",
+                      pages: 3,
+                      title: "Biology 2024"
+                    }
+                  ]
+                },
+                {
+                  name: "Compiler Design",
+                  id: "compiler-design",
+                  description: "Principles of compiler design",
+                  icon: "file-code",
+                  slug: "compiler-design",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-compiler-design-2023.pdf",
+                      id: "ymca-compiler-design-2023",
+                      pages: 3,
+                      title: "Compiler Design 2023"
+                    }
+                  ]
+                },
+                {
+                  name: "Constitution",
+                  id: "constitution",
+                  description: "Study of the Indian Constitution",
+                  icon: "gavel",
+                  slug: "constitution",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-constitution-2023.pdf",
+                      id: "ymca-constitution-2023",
+                      pages: 3,
+                      title: "Constitution 2023"
+                    }
+                  ]
+                },
+                {
+                  name: "Signal and Systems",
+                  id: "sns",
+                  description: "Fundamentals of signals and systems",
+                  icon: "signal",
+                  slug: "sns",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-sns-2023.pdf",
+                      id: "ymca-sns-2023",
+                      pages: 3,
+                      title: "Signal and Systems 2023"
+                    },
+                    {
+                      year: 2019,
+                      file: "ymca-sns-2019.pdf",
+                      id: "ymca-sns-2019",
+                      pages: 3,
+                      title: "Signal and Systems 2019"
+                    }
+                  ]
+                },
+                {
+                  name: "Universal Human Values",
+                  id: "universal-human-values",
+                  description: "Study of human values and ethics",
+                  icon: "heart",
+                  slug: "universal-human-values",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-universal-human-values-2023.pdf",
+                      id: "ymca-universal-human-values-2023",
+                      pages: 3,
+                      title: "Universal Human Values 2023"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

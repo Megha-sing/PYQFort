@@ -30,7 +30,6 @@ exclude:
   - LICENSE
   - CONTRIBUTING.md
   
-
 # Collections
 collections:
   colleges:

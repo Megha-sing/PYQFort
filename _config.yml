@@ -29,6 +29,7 @@ exclude:
   - SECURITY.MD
   - LICENSE
   - CONTRIBUTING.md
+  
 
 # Collections
 collections:

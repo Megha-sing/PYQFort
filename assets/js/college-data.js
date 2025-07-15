@@ -361,14 +361,6 @@ window.COLLEGE_DATA = {
               description: "Subjects for Semester 5",
               subjects: [
                 {
-                  name: "Computer Networks",
-                  id: "computer-networks",
-                  description: "Fundamentals of computer networking",
-                  icon: "network-wired",
-                  slug: "computer-networks",
-                  pyqs: []
-                },
-                {
                   name: "Database Management Systems",
                   id: "dbms",
                   description: "Principles of database systems",
@@ -489,6 +481,342 @@ window.COLLEGE_DATA = {
                       id: "ymca-universal-human-values-2023",
                       pages: 3,
                       title: "Universal Human Values 2023"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              number: 6,
+              slug: "sem6",
+              id: "sem6",
+              description: "Subjects for Semester 6",
+              subjects: [
+                {
+                  name: "Computer Networks",
+                  id: "computer-networks",
+                  description: "Principles of computer networking",
+                  icon: "network-wired",
+                  slug: "computer-networks",
+                  pyqs: [
+                    {
+                      year: 2017,
+                      file: "ymca-computer-networks-2017.pdf",
+                      id: "ymca-computer-networks-2017",
+                      pages: 3,
+                      title: "Computer Networks 2017"
+                    },
+                    {
+                      year: 2018,
+                      file: "ymca-computer-networks-2018.pdf",
+                      id: "ymca-computer-networks-2018",
+                      pages: 3,
+                      title: "Computer Networks 2018"
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-computer-networks-2023.pdf",
+                      id: "ymca-computer-networks-2023",
+                      pages: 3,
+                      title: "Computer Networks 2023"
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-computer-networks-2024.pdf",
+                      id: "ymca-computer-networks-2024",
+                      pages: 3,
+                      title: "Computer Networks 2024"
+                    }
+                  ]
+                },
+                {
+                  name: "AI Expert System",
+                  id: "ai-exp-system",
+                  description: "Fundamentals of AI and expert systems",
+                  icon: "brain",
+                  slug: "ai-exp-system",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-ai-exp-system-2019.pdf",
+                      id: "ymca-ai-exp-system-2019",
+                      pages: 3,
+                      title: "AI Expert System 2019"
+                    }
+                  ]
+                },
+                {
+                  name: "Bhagavad Gita",
+                  id: "bhagavad-gita",
+                  description: "Study of the Bhagavad Gita",
+                  icon: "book-open",
+                  slug: "bhagavad-gita",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "ymca-bhagavad-gita-2024.pdf",
+                      id: "ymca-bhagavad-gita-2024",
+                      pages: 3,
+                      title: "Bhagavad Gita 2024"
+                    }
+                  ]
+                },
+                {
+                  name: "Big Data",
+                  id: "big-data",
+                  description: "Concepts and technologies in big data",
+                  icon: "database",
+                  slug: "big-data",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "ymca-big-data-2024.pdf",
+                      id: "ymca-big-data-2024",
+                      pages: 3,
+                      title: "Big Data 2024"
+                    }
+                  ]
+                },
+                {
+                  name: "Client Server Technology",
+                  id: "client-server-technology",
+                  description: "Principles of client-server architecture",
+                  icon: "server",
+                  slug: "client-server-technology",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-client-server-technology-2019.pdf",
+                      id: "ymca-client-server-technology-2019",
+                      pages: 3,
+                      title: "Client Server Technology 2019"
+                    }
+                  ]
+                },
+                {
+                  name: "Cloud Computing",
+                  id: "cloud-computing",
+                  description: "Concepts and technologies in cloud computing",
+                  icon: "cloud",
+                  slug: "cloud-computing",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-cloud-computing-2019.pdf",
+                      id: "ymca-cloud-computing-2019",
+                      pages: 3,
+                      title: "Cloud Computing 2019"
+                    }
+                  ]
+                },
+                {
+                  name: "Data Mining",
+                  id: "data-mining",
+                  description: "Techniques and applications of data mining",
+                  icon: "database",
+                  slug: "data-mining",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-data-mining-2018.pdf",
+                      id: "ymca-data-mining-2018",
+                      pages: 3,
+                      title: "Data Mining 2018"
+                    }
+                  ]
+                },
+                {
+                  name: "Digital System Design",
+                  id: "digital-system-design",
+                  description: "Principles of digital system design",
+                  icon: "circuit-board",
+                  slug: "digital-system-design",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-digital-system-design-2019.pdf",
+                      id: "ymca-digital-system-design-2019",
+                      pages: 3,
+                      title: "Digital System Design 2019"
+                    }
+                  ]
+                },
+                {
+                  name: "Electronic devices",
+                  id: "electronic-devices",
+                  description: "Study of electronic devices and circuits",
+                  icon: "microchip",
+                  slug: "electronic-devices",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "ymca-electronic-devices-2024.pdf",
+                      id: "ymca-electronic-devices-2024",
+                      pages: 3,
+                      title: "Electronic Devices 2024"
+                    }
+                  ]
+                },
+                {
+                  name: "HR Management",
+                  id: "hr-management",
+                  description: "Principles of human resource management",
+                  icon: "users",
+                  slug: "hr-management",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-hr-management-2023.pdf",
+                      id: "ymca-hr-management-2023",
+                      pages: 3,
+                      title: "HR Management 2023"
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-hr-management-2024.pdf",
+                      id: "ymca-hr-management-2024",
+                      pages: 3,
+                      title: "HR Management 2024"
+                    }
+                  ]
+                },
+                {
+                  name: "Internet and Web Technologies",
+                  id: "int-n-web-technologies",
+                  description: "Principles of internet and web technologies",
+                  icon: "globe",
+                  slug: "int-n-web-technologies",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "ymca-int-n-web-technologies-2024.pdf",
+                      id: "ymca-int-n-web-technologies2024",
+                      pages: 3,
+                      title: "Internet and Web Technologies 2024"
+                    }
+                  ]
+                },
+                {
+                  name: "Intelligent Systems",
+                  id: "intelligent-systems",
+                  description: "Concepts in intelligent systems",
+                  icon: "brain",
+                  slug: "intelligent-systems",
+                  pyqs: [
+                    {
+                      year: 2017,
+                      file: "ymca-intelligent-systems-2017.pdf",
+                      id: "ymca-intelligent-systems-2017",
+                      pages: 3,
+                      title: "Intelligent Systems 2017"
+                    },
+                    {
+                      year: 2018,
+                      file: "ymca-intelligent-systems-2018.pdf",
+                      id: "ymca-intelligent-systems-2018",
+                      pages: 3,
+                      title: "Intelligent Systems 2018"
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-intelligent-systems-2024.pdf",
+                      id: "ymca-intelligent-systems-2024",
+                      pages: 3,
+                      title: "Intelligent Systems 2024"
+                    }
+                  ]
+                },
+                {
+                  name: "Operations Research",
+                  id: "operations-research",
+                  description: "Techniques in operations research",
+                  icon: "chart-bar",
+                  slug: "operations-research",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "ymca-operations-research-2024.pdf",
+                      id: "ymca-operations-research-2024",
+                      pages: 3,
+                      title: "Operations Research 2024"
+                    }
+                  ]
+                },
+                {
+                  name: "Real Time Systems",
+                  id: "real-time-systems",
+                  description: "Principles of real-time systems",
+                  icon: "clock",
+                  slug: "real-time-systems",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-real-time-systems-2018.pdf",
+                      id: "ymca-real-time-systems-2018",
+                      pages: 3,
+                      title: "Real Time Systems 2018"
+                    }
+                  ]
+                },
+                {
+                  name: "Soft Skills",
+                  id: "soft-skills",
+                  description: "Development of soft skills for professionals",
+                  icon: "user-tie",
+                  slug: "soft-skills",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "ymca-soft-skills-2024.pdf",
+                      id: "ymca-soft-skills-2024",
+                      pages: 3,
+                      title: "Soft Skills 2024"
+                    }
+                  ]
+                },
+                {
+                  name: "Software Engineering",
+                  id: "software-engineering",
+                  description: "Principles of software engineering",
+                  icon: "code-branch",
+                  slug: "software-engineering",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "ymca-software-engineering-2024.pdf",
+                      id: "ymca-software-engineering-2024",
+                      pages: 3,
+                      title: "Software Engineering 2024"
+                    },
+                    {
+                      year: 2019,
+                      file: "ymca-software-engineering-2019.pdf",
+                      id: "ymca-software-engineering-2019",
+                      pages: 3,
+                      title: "Software Engineering 2019"
+                    }
+                  ]
+                },
+                {
+                  name: "Unix Shell",
+                  id: "unix-shell",
+                  description: "Fundamentals of Unix shell programming",
+                  icon: "terminal",
+                  slug: "unix-shell",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-unix-shell-2019.pdf",
+                      id: "ymca-unix-shell-2019",
+                      pages: 3,
+                      title: "Unix Shell 2019"
+                    },
+                    {
+                      year: 2018,
+                      file: "ymca-unix-shell-2018.pdf",
+                      id: "ymca-unix-shell-2018",
+                      pages: 3,
+                      title: "Unix Shell 2018"
                     }
                   ]
                 }

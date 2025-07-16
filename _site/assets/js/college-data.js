@@ -263,46 +263,46 @@ window.COLLEGE_DATA = {
                   ]
                 },
                 {
-                  name: "Economics",
-                  id: "economics",
+                  name: "Economic",
+                  id: "economic",
                   description: "Economic principles in engineering",
                   icon: "chart-line",
-                  slug: "economics",
+                  slug: "economic",
                   pyqs: [
                     {
                       year: 2023,
-                      file: "ymca-economics-2023.pdf",
-                      id: "ymca-economics-2023",
+                      file: "ymca-economic-2023.pdf",
+                      id: "ymca-economic-2023",
                       pages: 3,
-                      title: "Economics 2023"
+                      title: "Economic 2023"
                     },
                     {
                       year: 2024,
-                      file: "ymca-economics-2024.pdf",
-                      id: "ymca-economics-2024",
+                      file: "ymca-economic-2024.pdf",
+                      id: "ymca-economic-2024",
                       pages: 3,
-                      title: "Economics 2024"
+                      title: "Economic 2024"
                     },
                     {
                       year: 2019,
-                      file: "ymca-economics-2019.pdf",
-                      id: "ymca-economics-2019",
+                      file: "ymca-economic-2019.pdf",
+                      id: "ymca-economic-2019",
                       pages: 3,
-                      title: "Economics 2019"
+                      title: "Economic 2019"
                     },
                     {
                       year: 2020,
-                      file: "ymca-economics-2020.pdf",
-                      id: "ymca-economics-2020",
+                      file: "ymca-economic-2020.pdf",
+                      id: "ymca-economic-2020",
                       pages: 3,
-                      title: "Economics 2020"
+                      title: "Economic 2020"
                     },
                     {
                       year: 2018,
-                      file: "ymca-economics-2018.pdf",
-                      id: "ymca-economics-2018",
+                      file: "ymca-economic-2018.pdf",
+                      id: "ymca-economic-2018",
                       pages: 3,
-                      title: "Economics 2018"
+                      title: "Economic 2018"
                     }
                   ]
                 },
@@ -682,15 +682,15 @@ window.COLLEGE_DATA = {
                 },
                 {
                   name: "Internet and Web Technologies",
-                  id: "internet-web-technologies",
+                  id: "int-n-web-technologies",
                   description: "Principles of internet and web technologies",
                   icon: "globe",
-                  slug: "internet-web-technologies",
+                  slug: "int-n-web-technologies",
                   pyqs: [
                     {
                       year: 2024,
-                      file: "ymca-internet-web-technologies-2024.pdf",
-                      id: "ymca-internet-web-technologies-2024",
+                      file: "ymca-int-n-web-technologies-2024.pdf",
+                      id: "ymca-int-n-web-technologies-2024",
                       pages: 3,
                       title: "Internet and Web Technologies 2024"
                     }
@@ -743,18 +743,25 @@ window.COLLEGE_DATA = {
                   ]
                 },
                 {
-                  name: "Real Time Systems",
-                  id: "real-time-systems",
-                  description: "Principles of real-time systems",
+                  name: "Real Time System",
+                  id: "real-time-system",
+                  description: "Principles of real-time system",
                   icon: "clock",
-                  slug: "real-time-systems",
+                  slug: "real-time-system",
                   pyqs: [
                     {
                       year: 2018,
-                      file: "ymca-real-time-systems-2018.pdf",
-                      id: "ymca-real-time-systems-2018",
+                      file: "ymca-real-time-system-2018.pdf",
+                      id: "ymca-real-time-system-2018",
                       pages: 3,
-                      title: "Real Time Systems 2018"
+                      title: "Real Time System 2018"
+                    },
+                    {
+                      year: 2021,
+                      file: "ymca-real-time-system-2021.pdf",
+                      id: "ymca-real-time-system-2021",
+                      pages: 3,
+                      title: "Real Time System 2021"
                     }
                   ]
                 },
@@ -817,6 +824,337 @@ window.COLLEGE_DATA = {
                       id: "ymca-unix-shell-2018",
                       pages: 3,
                       title: "Unix Shell 2018"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              number: 7,
+              slug: "sem7",
+              id: "sem7",
+              description: "Subjects for Semester 7",
+              subjects: [
+                {
+                  name: "Advance Operating System",
+                  id: "adv-os",
+                  description: "Advanced concepts in operating systems",
+                  icon: "server",
+                  slug: "adv-os",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-adv-os-2023.pdf",
+                      id: "ymca-adv-os-2023",
+                      pages: 3,
+                      title: "Advance Operating System 2023"
+                    },
+                    {
+                      year: 2021,
+                      file: "ymca-adv-os-2021.pdf",
+                      id: "ymca-adv-os-2021",
+                      pages: 3,
+                      title: "Advance Operating System 2021"
+                    }
+                  ]
+                },
+                {
+                  name: "Business Intelligence",
+                  id: "business-intelligence",
+                  description: "Concepts in business intelligence",
+                  icon: "chart-pie",
+                  slug: "business-intelligence",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-business-intelligence-2023.pdf",
+                      id: "ymca-business-intelligence-2023",
+                      pages: 3,
+                      title: "Business Intelligence 2023"
+                    }
+                  ]
+                },
+                {
+                  name: "Cloud Computing",
+                  id: "cloud-computing",
+                  description: "Advanced concepts in cloud computing",
+                  icon: "cloud",
+                  slug: "cloud-computing",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-cloud-computing-2023.pdf",
+                      id: "ymca-cloud-computing-2023",
+                      pages: 3,
+                      title: "Cloud Computing 2023"
+                    }
+                  ]
+                },
+                {
+                  name: "Computer Graphics",
+                  id: "computer-graphics",
+                  description: "Principles of computer graphics",
+                  icon: "image",
+                  slug: "computer-graphics",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-computer-graphics-2018.pdf",
+                      id: "ymca-computer-graphics-2018",
+                      pages: 3,
+                      title: "Computer Graphics 2018"
+                    }
+                  ]
+                },
+                {
+                  name: "Cryptography",
+                  id: "cryptography",
+                  description: "Principles of cryptography",
+                  icon: "lock",
+                  slug: "cryptography",
+                  pyqs: [
+                    {
+                      year: 2021,
+                      file: "ymca-cryptography-2021.pdf",
+                      id: "ymca-cryptography-2021",
+                      pages: 3,
+                      title: "Cryptography 2021"
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-cryptography-2023.pdf",
+                      id: "ymca-cryptography-2023",
+                      pages: 3,
+                      title: "Cryptography 2023"
+                    }
+                  ]
+                },
+                {
+                  name: "Data Analytics",
+                  id: "data-analytics",
+                  description: "Techniques in data analytics",
+                  icon: "chart-line",
+                  slug: "data-analytics",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-data-analytics-2023.pdf",
+                      id: "ymca-data-analytics-2023",
+                      pages: 3,
+                      title: "Data Analytics 2023"
+                    }
+                  ]
+                },
+                {
+                  name: "Data Learning and Image Processing",
+                  id: "dl-n-image-processing",
+                  description: "Concepts in data learning and image processing",
+                  icon: "image",
+                  slug: "dl-n-image-processing",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-dl-n-image-processing-2023.pdf",
+                      id: "ymca-dl-n-image-processing-2023",
+                      pages: 3,
+                      title: "Data Learning and Image Processing 2023"
+                    }
+                  ]
+                },
+                {
+                  name: "Economic Policies",
+                  id: "economic-policies",
+                  description: "Study of economic policies",
+                  icon: "chart-bar",
+                  slug: "economic-policies",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-economic-policies-2023.pdf",
+                      id: "ymca-economic-policies-2023",
+                      pages: 3,
+                      title: "Economic Policies 2023"
+                    }
+                  ]
+                },
+                {
+                  name: "Financial Management",
+                  id: "financial-management",
+                  description: "Principles of financial management",
+                  icon: "money-bill-wave",
+                  slug: "financial-management",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-financial-management-2023.pdf",
+                      id: "ymca-financial-management-2023",
+                      pages: 3,
+                      title: "Financial Management 2023"
+                    }
+                  ]
+                },
+                {
+                  name: "Network programming",
+                  id: "network-programming",
+                  description: "Principles of network programming",
+                  icon: "network-wired",
+                  slug: "network-programming",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-network-programming-2018.pdf",
+                      id: "ymca-network-programming-2018",
+                      pages: 3,
+                      title: "Network Programming 2018"
+                    }
+                  ]
+                },
+                {
+                  name: "Neural Network and Deep Learning",
+                  id: "neural-network-n-dl",
+                  description: "Concepts in neural networks and deep learning",
+                  icon: "brain",
+                  slug: "neural-network-n-dl",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-neural-network-n-dl-2023.pdf",
+                      id: "ymca-neural-network-n-dl-2023",
+                      pages: 3,
+                      title: "Neural Network and Deep Learning 2023"
+                    }
+                  ]
+                },
+                {
+                  name: "Object Oriented System Design",
+                  id: "object-oriented-system-design",
+                  description: "Principles of object-oriented system design",
+                  icon: "project-diagram",
+                  slug: "object-oriented-system-design",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-object-oriented-system-design-2018.pdf",
+                      id: "ymca-object-oriented-system-design-2018",
+                      pages: 3,
+                      title: "Object Oriented System Design 2018"
+                    }
+                  ]
+                },
+                {
+                  name: "Object Oriented System Development",
+                  id: "object-oriented-system-development",
+                  description: "Principles of object-oriented system development",
+                  icon: "project-diagram",
+                  slug: "object-oriented-system-development",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-object-oriented-system-development-2018.pdf",
+                      id: "ymca-object-oriented-system-development-2018",
+                      pages: 3,
+                      title: "Object Oriented System Development 2018"
+                    }
+                  ]
+                },
+                {
+                  name: "Organizational Behaviour",
+                  id: "org-behaviour",
+                  description: "Study of organizational behaviour",
+                  icon: "users",
+                  slug: "org-behaviour",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-org-behaviour-2019.pdf",
+                      id: "ymca-org-behaviour-2019",
+                      pages: 3,
+                      title: "Organizational Behaviour 2019"
+                    },
+                    {
+                      year: 2021,
+                      file: "ymca-org-behaviour-2021.pdf",
+                      id: "ymca-org-behaviour-2021",
+                      pages: 3,
+                      title: "Organizational Behaviour 2021"
+                    }
+                  ]
+                },
+                {
+                  name: "Real Time System",
+                  id: "real-time-system",
+                  description: "Principles of real-time systems",
+                  icon: "clock",
+                  slug: "real-time-system",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-real-time-system-2018.pdf",
+                      id: "ymca-real-time-system-2018",
+                      pages: 3,
+                      title: "Real Time System 2018"
+                    },
+                    {
+                      year: 2021,
+                      file: "ymca-real-time-system-2021.pdf",
+                      id: "ymca-real-time-system-2021",
+                      pages: 3,
+                      title: "Real Time System 2021"
+                    }
+                  ]
+                },
+                {
+                  name: "Security of Information System",
+                  id: "security-of-information-system",
+                  description: "Principles of information system security",
+                  icon: "shield-alt",
+                  slug: "security-of-information-system",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-security-of-information-system-2018.pdf",
+                      id: "ymca-security-of-information-system-2018",
+                      pages: 3,
+                      title: "Security of Information System 2018"
+                    }
+                  ]
+                },
+                {
+                  name: "Software Testing",
+                  id: "software-testing",
+                  description: "Principles of software testing",
+                  icon: "bug",
+                  slug: "software-testing",
+                  pyqs: [
+                    {
+                      year: 2017,
+                      file: "ymca-software-testing-2017.pdf",
+                      id: "ymca-software-testing-2017",
+                      pages: 3,
+                      title: "Software Testing 2017"
+                    },
+                    {
+                      year: 2018,
+                      file: "ymca-software-testing-2018.pdf",
+                      id: "ymca-software-testing-2018",
+                      pages: 3,
+                      title: "Software Testing 2018"
+                    }
+                  ]
+                },
+                {
+                  name: "Speech and Natural Language Processing",
+                  id: "speech-n-nlp",
+                  description: "Concepts in speech and natural language processing",
+                  icon: "comment-dots",
+                  slug: "speech-n-nlp",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-speech-n-nlp-2023.pdf",
+                      id: "ymca-speech-n-nlp-2023",
+                      pages: 3,
+                      title: "Speech and Natural Language Processing 2023"
                     }
                   ]
                 }

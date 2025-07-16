@@ -869,6 +869,196 @@
                   id: ymca-speech-n-nlp-2023  # Add this unique identifier
                   pages: 3
                   title: "Speech and Natural Language Processing 2023"
+        - number: 8
+          slug: sem8
+          id: sem8
+          description: Subjects for Semester 8
+          keywords: ["semester 8", "engineering", "subjects"]
+          subjects:
+            - name: Digital Signal Processing
+              id: digital-signal-processing
+              description: Principles of digital signal processing
+              keywords: ["digital", "signal", "processing"]
+              icon: signal
+              slug: digital-signal-processing
+              pyqs:
+                - year: 2018
+                  file: ymca-digital-signal-processing-2018.pdf
+                  id: ymca-digital-signal-processing-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Digital Signal Processing 2018"
+            - name: Miscellaneous
+              id: miscellaneous
+              description: Miscellaneous subjects
+              keywords: ["miscellaneous", "subjects"]
+              icon: boxes
+              slug: miscellaneous
+              pyqs:
+                - year: 2018
+                  file: ymca-computer-architecture-2018.pdf
+                  id: ymca-computer-architecture-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Computer Architecture 2018"
+                - year: 2023
+                  file: ymca-computer-architecture-2023.pdf
+                  id: ymca-computer-architecture-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Computer Architecture 2023"
+                - year: 2018
+                  file: ymca-computer-graphics-2018.pdf
+                  id: ymca-computer-graphics-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Computer Graphics 2018"
+                - year: 2018
+                  file: ymca-data-structures-2018.pdf
+                  id: ymca-data-structures-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Data Structures 2018"
+                - year: 2023
+                  file: ymca-database-systems-2023.pdf
+                  id: ymca-database-systems-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Database Systems 2023"
+                - year: 2018
+                  file: ymca-digital-analog-2018.pdf
+                  id: ymca-digital-analog-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Digital and Analog Electronics 2018"
+                - year: 2017
+                  file: ymca-digital-electronics-computer-org-2017.pdf
+                  id: ymca-digital-electronics-computer-org-2017  # Add this unique identifier
+                  pages: 3
+                  title: "Digital Electronics and Computer Organization 2017"
+                - year: 2018
+                  file: ymca-digital-electronics-computer-org-2018.pdf
+                  id: ymca-digital-electronics-computer-org-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Digital Electronics and Computer Organization 2018"
+                - year: 2023
+                  file: ymca-disaster-management-2023.pdf
+                  id: ymca-disaster-management-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Disaster Management 2023"
+                - year: 2017
+                  file: ymca-discrete-structures-2017.pdf
+                  id: ymca-discrete-structures-2017  # Add this unique identifier
+                  pages: 3
+                  title: "Discrete Structures 2017"
+                - year: 2018
+                  file: ymca-discrete-structures-2018.pdf
+                  id: ymca-discrete-structures-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Discrete Structures 2018"
+                - year: 2018
+                  file: ymca-distributed-os-2018.pdf
+                  id: ymca-distributed-os-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Distributed Operating Systems 2018"
+                - year: 2023
+                  file: ymca-dsa-2023.pdf
+                  id: ymca-dsa-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Data Structures and Algorithms 2023"
+                - year: 2023
+                  file: ymca-foundation-engineering-2023.pdf
+                  id: ymca-foundation-engineering-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Foundation Engineering 2023"
+                - year: 2018
+                  file: ymca-java-2018.pdf
+                  id: ymca-java-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Java Programming 2018"
+                - year: 2023
+                  file: ymca-maths-3-cde-2023.pdf
+                  id: ymca-maths-3-cde-2023  # Add this unique
+                  pages: 3
+                  title: "Mathematics 3 (CDE) 2023"
+                - year: 2024
+                  file: ymca-maths-3-cde-2024.pdf
+                  id: ymca-maths-3-cde-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Mathematics 3 (CDE) 2024"
+                - year: 2022
+                  file: ymca-maths-for-ds-2022.pdf
+                  id: ymca-maths-for-ds-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Mathematics for Data Science 2022"
+                - year: 2023
+                  file: ymca-maths-for-ds-2023.pdf
+                  id: ymca-maths-for-ds-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Mathematics for Data Science 2023"
+                - year: 2018
+                  file: ymca-microprocessor-interfacing-2018.pdf
+                  id: ymca-microprocessor-interfacing-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Microprocessor Interfacing 2018"
+                - year: 2019
+                  file: ymca-microprocessor-interfacing-2019.pdf
+                  id: ymca-microprocessor-interfacing-2019  # Add this unique identifier
+                  pages: 3
+                  title: "Microprocessor Interfacing 2019"
+                - year: 2022
+                  file: ymca-ml-2022.pdf
+                  id: ymca-ml-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Machine Learning 2022"
+                - year: 2023
+                  file: ymca-ml-2023.pdf
+                  id: ymca-ml-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Machine Learning 2023"
+                - year: 2018
+                  file: ymca-operations-research-2018.pdf
+                  id: ymca-operations-research-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Operations Research 2018"
+                - year: 2024
+                  file: ymca-operations-research-2024.pdf
+                  id: ymca-operations-research-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Operations Research 2024"
+                - year: 2023
+                  file: ymca-soft-computing-set-1-2023.pdf
+                  id: ymca-soft-computing-set-1-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Soft Computing Set 1 2023"
+                - year: 2023
+                  file: ymca-soft-computing-set-2-2023.pdf
+                  id: ymca-soft-computing-set-2-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Soft Computing Set 2 2023"
+                - year: 2019
+                  file: ymca-software-engineering-2019.pdf
+                  id: ymca-software-engineering-2019  # Add this unique identifier
+                  pages: 3
+                  title: "Software Engineering 2019"
+                - year: 2023
+                  file: ymca-statistics-2023.pdf
+                  id: ymca-statistics-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Statistics 2023"
+                - year: 2017
+                  file: ymca-system-software-design-2017.pdf
+                  id: ymca-system-software-design-2017  # Add this unique identifier
+                  pages: 3
+                  title: "System Software Design 2017"
+                - year: 2018
+                  file: ymca-system-software-design-2018.pdf
+                  id: ymca-system-software-design-2018  # Add this unique identifier
+                  pages: 3
+                  title: "System Software Design 2018"
+                - year: 2018
+                  file: ymca-wireless-communication-2018.pdf
+                  id: ymca-wireless-communication-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Wireless Communication 2018"
+                - year: 2021
+                  file: ymca-wireless-communication-2021.pdf
+                  id: ymca-wireless-communication-2021  # Add this unique identifier
+                  pages: 3
+                  title: "Wireless Communication 2021"
 - name: VIT Bhopal
   slug: vit-bhopal
   id: vit-bhopal

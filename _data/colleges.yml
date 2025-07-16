@@ -1,8 +1,17 @@
-- name: ymca
+- name: JC Bose University of Science and Technology, YMCA
   slug: ymca
   id: ymca # This must match exactly with page.name
   description: Explore branches and Previous Year Question Papers
   keywords: ["jc bose", "university", "ymca", "engineering"]
+  # New ranking fields
+  ranking:
+    overall: 1
+    established: 1969
+    location: "Faridabad, Haryana"
+    nirf_rank: 101
+    category: "Government"
+    total_students: 8000
+    accreditation: "NAAC A+"
   branches:
     - name: computer-engineering
       slug: computer-engineering
@@ -860,10 +869,19 @@
                   id: ymca-speech-n-nlp-2023  # Add this unique identifier
                   pages: 3
                   title: "Speech and Natural Language Processing 2023"
-- name: vit-bhopal
+- name: VIT Bhopal
   slug: vit-bhopal
   id: vit-bhopal
   description: Explore branches and Previous Year Question Papers
+  # New ranking fields
+  ranking:
+    overall: 2
+    established: 2017
+    location: "Bhopal, Madhya Pradesh"
+    nirf_rank: 45
+    category: "Private"
+    total_students: 12000
+    accreditation: "NAAC A"
   branches:
     - name: computer-engineering
       slug: computer-engineering

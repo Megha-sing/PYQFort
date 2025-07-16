@@ -2,10 +2,19 @@
 window.COLLEGE_DATA = {
   colleges: [
     {
-      name: "ymca",
+      name: "JC Bose University of Science and Technology, YMCA",
       slug: "ymca",
       id: "ymca",
       description: "Explore branches and Previous Year Question Papers",
+      ranking: {
+        overall: 1,
+        established: 1969,
+        location: "Faridabad, Haryana",
+        nirf_rank: 101,
+        category: "Government",
+        total_students: 8000,
+        accreditation: "NAAC A+"
+      },
       branches: [
         {
           name: "computer-engineering",
@@ -1165,10 +1174,19 @@ window.COLLEGE_DATA = {
       ]
     },
     {
-      name: "vit-bhopal",
+      name: "VIT Bhopal",
       slug: "vit-bhopal",
       id: "vit-bhopal",
       description: "Explore branches and Previous Year Question Papers",
+      ranking: {
+        overall: 2,
+        established: 2017,
+        location: "Bhopal, Madhya Pradesh",
+        nirf_rank: 45,
+        category: "Private",
+        total_students: 12000,
+        accreditation: "NAAC A"
+      },
       branches: [
         {
           name: "computer-engineering",
